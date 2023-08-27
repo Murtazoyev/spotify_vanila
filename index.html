@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
+    <link rel="stylesheet" href="./style/" id="theme">
+    <link rel="icon" sizes="32x32" type="image/png"
+        href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+    <link rel="icon" sizes="16x16" type="image/png"
+        href="https://open.spotifycdn.com/cdn/images/favicon16.1c487bff.png">
+    <link rel="icon" href="https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico">
+</head>
+
+<body>
+    <div class="main-block">
+        <aside class="aside-1">
+            <div class="aside-father">
+                <div class="aside-top">
+                    <div class="logo-block"></div>
+                    <div class="point-tree"><button class="btn-point"><img src="./img/icon.png"></button></div>
+                </div>
+                <div class="aside-center">
+                    <a href="#" class="aside-link">
+                        <div class="aside-link-left aside-button-1 aside-btn-1 aside-link-active">
+                            <img src="./img/home.png">
+                            <p>Home</p>
+                        </div>
+                    </a>
+                    <a href="#" class="aside-link">
+                        <div class="aside-link-left aside-btn-2 aside-button-2">
+                            <img src="./img/search.png">
+                            <p>Search</p>
+                        </div>
+                    </a>
+                    <a href="#" class="aside-link">
+                        <div class="aside-link-left aside-btn-3 aside-button-3">
+                            <img src="./img/iconlib.png">
+                            <p>Library</p>
+                        </div>
+                    </a>
+                    <hr class="aside-hr">
+                    <a href="#" class="aside-link">
+                        <div class="aside-link-left aside-btn-4 aside-button-4">
+                            <img src="./img/iconlike.png">
+                            <p>Liked Songs</p>
+                        </div>
+                    </a>
+                    <hr class="aside-hr">
+                </div>
+                <div class="aside-bottom">
+                    <div class="aside-top-block">
+                        <p>Playlists</p>
+                        <img src="./img/icon....png" alt="" class="setting-btn">
+                    </div>
+                    <div class="aside-center-block">
+                        <div class="asides-block">
+                            <img src="./img/iconfile.png" class="file-btn" alt="">
+                            <img src="./img/iconset.png" class="set-btn" alt="">
+                        </div>
+                        <div class="set-block-play first-none">
+                            <p>Select</p>
+                            <p>Create a Playlist</p>
+                            <p>Create a Folder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="aside-bottom-block">
+                <a href="./exe/SpotifySetup.exe" download="">
+                    <button class="aside-btn">
+                        <p>Download app</p>
+                        <img src="./img/DownloadSimple.png" class="dddd">
+                    </button>
+                </a>
+            </div>
+        </aside>
+        <div class="block-flex">
+            <div class="load">
+                <div class="lds-ellipsis">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <header class="header">
+                <div class="head-div">
+                    <button id="backButton" class="btn-prev"><img src="./img/Forward.png" alt=""></button>
+                    <button class="btn-next"><img src="./img/prev.png" alt=""></button>
+                    <div class="div-imp">
+                        <label class="div-im">
+                            <img src="./img/search.png" alt="">
+                            <input type="text" class="header-inp" placeholder="Artists, songs, or podcasts">
+                        </label>
+                    </div>
+                </div>
+                <div class="head-right">
+                    <button class="register">Зарегистрироваться</button>
+                    <button class="login">Войти</button>
+                </div>
+                <div class="user-select">
+                    <div class="user user-block">
+                        <img src="./img/4092564_profile_about_mobile ui_user_icon.png" class="user-img">
+                        <p class="user-name">Name</p>
+                        <div class="setting-user non">
+                            <div class="setting-div">
+                                <p>Account</p>
+                            </div>
+                            <div class="setting-div">
+                                <p>Profile</p>
+                            </div>
+                            <div class="setting-div">
+                                <p>Private session</p>
+                            </div>
+                            <div class="setting-div">
+                                <p>Settings</p>
+                            </div>
+                            <div class="setting-div exit-user">
+                                <p>Exit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zvonok">
+                        <img src="./img/iconcol.png">
+                    </div>
+                </div>
+            </header>
+            <section class="section-1">
+                <main class="main">
+                    <div class="mainly">
+                        <div class="top-father-block">
+                            <div class="top-block liked-songs">
+                                <img src="./img/Frame 15.png" class="img-top">
+                                <p class="top-title">Liked Songs</p>
+                            </div>
+                            <div class="top-block">
+                                <img src="./img/Frame 15 (1).png" class="img-top">
+                                <p class="top-title">Recently Played</p>
+                            </div>
+                            <div class="top-block">
+                                <img src="./img/Frame 15 (2).png" class="img-top">
+                                <p class="top-title">Friends Played</p>
+                            </div>
+                        </div>
+                        <div class="block-h3-with-others">
+                            <h3 class="zag1">Made For <span class="made-your-name">You</span></h3>
+                            <div class="bottom-father-block">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="play-music nonene">
+                        <div class="top-music">
+                            <div class="music-left">
+                                <img src="" class="music-img" crossorigin>
+                            </div>
+                            <div class="music-right">
+                                <p class="play-p">frontted</p>
+                                <h1 class="name-music">Name</h1>
+                                <p class="p-mus">Sscsasa</p>
+                                <p class="p-mus">-1 day ago</p>
+                            </div>
+                        </div>
+                        <div class="backround-div">
+                            <div class="center-music">
+                                <div class="center-div-music">
+                                    <div class="left-music">
+                                        <img src="./img/Play.png" class="img-play">
+                                        <img src="./img/iconlike.png" class="like">
+                                        <img src="./img/down.png" class="downlo">
+                                        <img src="./img/icon....png" class="settin-music">
+                                    </div>
+                                    <div class="right-music">
+                                        <div class="div-imp mini">
+                                            <label class="div-im mini2">
+                                                <img src="./img/search.png" alt="">
+                                                <input type="text" class="header-inp d-inp"
+                                                    placeholder="Artists, songs, or podcasts">
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="center-div">
+                                    <div class="tilte-about">
+                                        <p class="about-p">TITLE</p>
+                                        <p class="about-p">Album</p>
+                                        <p class="about-p">date added</p>
+                                        <p class="about-p">added by</p>
+                                        <img src="./img/iconhour.png" class="img-about">
+                                    </div>
+                                    <hr class="music-hr">
+                                </div>
+                            </div>
+                            <div class="bottom-music">
+
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </section>
+            <section class="section-2">
+                <div class="search-content">
+                    <div class="search-txt">
+                        <h3>Browse all</h3>
+                        <div class="search-items">
+                            <img src="./img/searchsrc1.png" alt="">
+                            <img src="./img/searchsrc2.png" alt="">
+                            <img src="./img/searchsrc3.png" alt="">
+                            <img src="./img/searchsrc4.png" alt="">
+                            <img src="./img/searchsrc5.png" alt="">
+                            <img src="./img/searchsrc6.png" alt="">
+                            <img src="./img/searchsrc7.png" alt="">
+                            <img src="./img/searchsrc8.png" alt="">
+                            <img src="./img/searchsrc9.png" alt="">
+                            <img src="./img/searchsrc10.png" alt="">
+                            <img src="./img/searchsrc11.png" alt="">
+                            <img src="./img/searchsrc12.png" alt="">
+                            <img src="./img/searchsrc13.png" alt="">
+                            <img src="./img/searchsrc14.png" alt="">
+                            <img src="./img/searchsrc15.png" alt="">
+                            <img src="./img/searchsrc16.png" alt="">
+                            <img src="./img/searchsrc17.png" alt="">
+                            <img src="./img/searchsrc18.png" alt="">
+                            <img src="./img/searchsrc19.png" alt="">
+                            <img src="./img/searchsrc20.png" alt="">
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section class="section-3">
+                <div class="not-found">
+                    <p class="no-found">
+                        ¯\_(ツ)_/¯
+                    </p>
+                    <p style="margin-bottom: 10px;">FIRST YOU SHOULD SIGN UP IN YOUR ACCOUNT</p>
+                    <button class="login login1">SIGN UP</button>
+                </div>
+            </section>
+            <section class="section-4">
+                <div class="not-found no-found-like">
+                    <p class="no-found">
+                        ¯\_(ツ)_/¯
+                    </p>
+                    <p style="margin-bottom: 10px;">FIRST YOU SHOULD SIGN UP IN YOUR ACCOUNT</p>
+                    <button class="login login2">SIGN UP</button>
+                </div>
+                <div class="play-music two-play nonene">
+                    <div class="top-music">
+                        <div class="music-left">
+                            <img src="https://t.scdn.co/images/3099b3803ad9496896c43f22fe9be8c4.png"
+                                class="music-img two-img" crossorigin>
+                        </div>
+                        <div class="music-right">
+                            <p class="play-p">playlists</p>
+                            <h1 class="name-music">Liked Songs</h1>
+                            <p class="p-mus">Tracks</p>
+                        </div>
+                    </div>
+                    <div class="backround-div">
+                        <div class="center-music">
+                            <div class="center-div">
+                                <div class="tilte-about">
+                                    <p class="about-p">#</p>
+                                    <p class="about-p">Name</p>
+                                    <p class="about-p">Album</p>
+                                    <p class="about-p">Date of addet</p>
+                                    <img src="./img/iconhour.png" class="img-about">
+                                </div>
+                                <hr class="music-hr">
+                            </div>
+                        </div>
+                        <div class="bottom-mus">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <aside class="aside-2">
+            <div class="aside-2-div">
+                <div class="fr-activ">
+                    <img src="./img/iconм.png" class="img-contact">
+                    <p class="none">Friends Activity</p>
+                </div>
+                <button class="btn-poin"><img src="./img/icon.png"></button>
+            </div>
+        </aside>
+        <div class="player none">
+            <div class="block-player-block">
+                <div class="player-left">
+                    <img src="" class="player-img">
+                    <div class="player-left-center">
+                        <p class="player-music-name">Name</p>
+                        <p class="player-music-author">Author</p>
+                    </div>
+                    <div class="player-like">
+                        <img src="./img/icon+.png" class="plus-img">
+                        <img src="./img/iconunion.png" class="img-union">
+                    </div>
+                </div>
+                <div class="player-center">
+                    <div class="player-top-block">
+                        <img src="./img/Shuffleshut.png" class="img-suttle">
+                        <img src="./img/Back.png" class="back-player">
+                        <img src="./img/Playefewfew.png" class="img-play-player">
+                        <img src="./img/Forwardefewfew.png" class="foward-player">
+                        <img src="./img/Repeatefewfew.png" class="repeat-player">
+                    </div>
+                    <div class="player-bottom-block">
+                        <audio class="audio"
+                            src="https://p.scdn.co/mp3-preview/8a8fcaf9ddf050562048d1632ddc880c9ce7c972?cid=39325b8965e2455b9ca39516e53f6bae">
+                        </audio>
+                        <p class="current"></p>
+                        <div class="player-nav">
+                            <div class="player-nav-child"></div>
+                        </div>
+                        <p class="dur">4:00</p>
+                    </div>
+
+                </div>
+                <div class="player-right">
+                    <img src="./img/iconВАААА.png" class="player-content">
+                    <img src="./img/iconВАААА-1.png" class="player-settings">
+                    <img src="./img/Listening onВАААА.png" class="player-list">
+                    <img src="./img/Listening onВАААА-1.png" class="player-img-volume">
+                    <input type="range" class="range">
+                    <img src="./img/Full ScreenВАААА.png" class="player-size">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

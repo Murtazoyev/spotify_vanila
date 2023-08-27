@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&amp;subset=cyrillic" rel="stylesheet">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+    <link rel="stylesheet" href="./style/register.css">
+    <title>Spotify Register</title>
+    <link rel="icon" sizes="32x32" type="image/png"
+        href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+    <link rel="icon" sizes="16x16" type="image/png"
+        href="https://open.spotifycdn.com/cdn/images/favicon16.1c487bff.png">
+    <link rel="icon" href="https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico">
+</head>
+
+<body>
+
+    <div class="cotn_principal">
+        <a href="#" class="back-to-the" onclick="window.close()"><i class="material-icons back-icon">&#xE5C4;</i></a>
+        <div class="cont_centrar">
+            <div class="cont_login">
+                <div class="cont_info_log_sign_up">
+                    <div class="col_md_login">
+                        <div class="cont_ba_opcitiy">
+                            <h2>Войти</h2>
+                            <p>У вас уже есть логин?</p>
+                            <button class="btn_login" onclick="cambiar_login()">Войти</button>
+                        </div>
+                    </div>
+                    <div class="col_md_sign_up">
+                        <div class="cont_ba_opcitiy">
+                            <h2>Регистрация</h2>
+                            <p>Нет логина?</p>
+                            <button class="btn_sign_up" onclick="cambiar_sign_up()">Зарегистрироваться</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont_back_info">
+                    <div class="cont_img_back_grey">
+                        <img src="img/bg.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="cont_forms">
+                    <div class="cont_img_back_">
+                        <img src="img/bg.jpg" alt="" />
+                    </div>
+                    <form class="cont_form_login">
+                        <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+                        <h2>Войти</h2>
+                        <input type="text" required class="log_email" placeholder="E-mail" />
+                        <input type="password" required class="log_pass" placeholder="Пароль" />
+                        <button class="btn_login" onclick="cambiar_login()">Войти</button>
+                    </form>
+                    <form class="cont_form_sign_up">
+                        <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+                        <h2>Регистрация</h2>
+                        <input type="email" required placeholder="E-mail" class="reg-email"/>
+                        <input type="text" required placeholder="Логин" class="reg-name"/>
+                        <input type="password" required placeholder="Пароль" class="reg-pass"/>
+                        <input type="password" required placeholder="Повторите пароль" class="reg-pass-return"/>
+                        <input type="file" accept="image/*" id="reg-img">
+                        <button class="btn_sign_up" onclick="cambiar_sign_up()">Зарегистрироваться</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/register.js"></script>
+</body>
+
+</html>
